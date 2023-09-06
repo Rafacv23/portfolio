@@ -1,0 +1,63 @@
+@media (max-width: 480px) {
+    .dark-body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem;
+        padding: 1rem;
+        width: 80%;
+        height: auto;
+    }
+    .main{
+        margin: 0;
+    }
+    .header{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: auto;
+        margin-bottom: 1rem;
+    }
+    .section{
+        margin: 0;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        height: auto;
+        padding: 0;
+    }
+    .section-home{
+        height: auto;
+    }
+    .parrafo{
+        padding: 0 2rem 0 2rem;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .project-card-idle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 2rem;
+        width: 80%
+    }
+    .project-card-timer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 2rem;
+        width: 80%
+    }
+    ul{
+        padding: 1rem 2rem 1rem 2rem;
+        margin: 0;
+    }
+    textarea.input.textarea {
+        margin: 1rem 2rem 1rem 2rem;
+        width: 70%;
+    }
+}

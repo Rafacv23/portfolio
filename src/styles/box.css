@@ -1,0 +1,81 @@
+.hire-me-box{
+    text-align: center;
+    background-color: #1E1B1E;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.home-box{
+    text-align: center;
+    background-color: #1E1B1E;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-size: 3rem;
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.photo-box{
+    background-color: #8325FD;
+    border-radius: 0.5rem;
+    background-image: url("../img/photo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    height: 238px;
+    width: 200px;
+}
+
+.rrss-box{
+    background-color: #1E1B1E;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.portfolio-box{
+    background-color: #1E1B1E;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.about-box{
+    background-color: #1E1B1E;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 60%;
+    margin-inline: 20%;
+}  
+
+.full{
+    width: 100%;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #D0CCC7;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+.footer-text{
+    margin: 0;
+}

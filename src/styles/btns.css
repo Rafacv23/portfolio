@@ -1,0 +1,250 @@
+button{
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hire-me-btn {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: transparent;
+    padding: 0.5rem 2rem;
+    color: #FEFEFE;
+    border-radius: 0.5rem;
+    border: 2px solid #8325FD;
+}
+
+.header-btn{
+    margin: 0.5rem 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: transparent;
+    color: #FEFEFE;
+}
+
+.big-btns{
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    width: 9rem;
+    height: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0 1rem 0;
+    font-size: 1rem;
+}
+
+.big-btns:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.green{
+    background-color: #00C39A;
+    color: #FEFEFE;
+}
+
+.yellow{
+    background-color: #FFC03C;
+    color: #131109;
+}
+
+.red{
+    background-color: #FE6D79;
+    color: #FEFEFE;
+}
+
+.live-btn {
+    border-radius: 0.5rem;
+    background-image: url('https://cdn-icons-png.flaticon.com/128/8450/8450093.png');
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    background-color: #FEFEFE;
+}
+
+.hvr-grow-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.github-btn{
+    border-radius: 0.5rem;
+    background-image: url('https://cdn-icons-png.flaticon.com/128/733/733609.png');
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    margin-right: 0.5rem;
+}
+
+.github-btn-rrss{
+    border-radius: 0.5rem;
+    background-image: url('https://cdn-icons-png.flaticon.com/128/3488/3488426.png');
+    background-color: #FEFEFE;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    margin-right: 1rem;
+    padding: 1rem;
+}
+
+.github-btn-rrss:hover{
+    transition: transform 0.5s;
+    border: 2px solid #5D6AC0;
+    transform: scale(1.1);
+}
+
+
+.linkedin-btn{
+    border-radius: 0.5rem;
+    background-image: url("https://cdn-icons-png.flaticon.com/128/3488/3488326.png");
+    background-color: #FEFEFE;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    padding: 1rem;
+}
+
+.linkedin-btn:hover{
+    transition: transform 0.5s;
+    border: 2px solid #0176B5;
+    transform: scale(1.1);
+}
+
+.send-btn{
+    background-color: #8325FD;
+    padding: 0.5rem 1rem;
+    border: none;
+    color: #FEFEFE;
+    border-radius: 0.5rem;
+}
+
+.cancel-btn{
+    background-color: transparent;
+    border: 1px solid #8325FD;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: #FEFEFE;
+}
+
+.cancel-btn:hover{
+    background-color: #FE6D79;
+    color: #FEFEFE;
+    transition: 0.3s;
+}
+
+.send-btn:hover{
+    background-color: #BAFF66;
+    transition: 0.3s;
+    color: #131109;
+}
+
+.hvr-rectangle-out {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    background: transparent;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+  }
+  .hvr-rectangle-out:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #8325FD;
+    -webkit-transform: scale(0);
+    border-radius: 0.3rem;
+    transform: scale(0);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-rectangle-out:hover, .hvr-rectangle-out:focus, .hvr-rectangle-out:active {
+    color: white;
+  }
+  .hvr-rectangle-out:hover:before, .hvr-rectangle-out:focus:before, .hvr-rectangle-out:active:before {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  .hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+  }
+  .hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #8325FD;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+    left: 0;
+    right: 0;
+  }  
+
+  .hvr-grow-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+  }
+  .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
