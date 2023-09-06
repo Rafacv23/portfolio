@@ -1,20 +1,19 @@
-import React from 'react';
-import Btn from '../components/btn';
-import Box from '../components/box';
-import Title from '../components/title';
-import SubTitle from '../components/sub-title';
-import Text from '../components/text';
+import React from "react"
+import Btn from "../components/btn"
+import Box from "../components/box"
+import Title from "../components/title"
+import SubTitle from "../components/sub-title"
+import Text from "../components/text"
 
 const HomeSection = (props) => {
-
-    const scrollToSection = (id) => {
-        const element = document.getElementById(id);
-        if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id)
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" })
     }
-};
+  }
 
-    return (
+  return (
         <section className="section-home" id={props.id}>
             <div className='row full'>
                 <Box className="home-box">
@@ -29,7 +28,7 @@ const HomeSection = (props) => {
                             </a>
                         </Box>
                     <Btn className="hire-me-btn hvr-rectangle-out" text="Hire Me" onClick={() => scrollToSection("contact")}></Btn>
-                </Box>    
+                </Box>
                 <Box className="photo-box"></Box>
             </div>
             <Box className="about-box">
@@ -37,7 +36,7 @@ const HomeSection = (props) => {
                 <Text className="about-me-p" text="With over 2 years of hands-on experience in crafting web applications, I have honed my skills in programming languages essential for the web, along with a proficiency in designing high-performance applications. I bring a proactive approach to resolving challenges and a dedication to effective collaboration."></Text>
             </Box>
         </section>
-    );
+  )
 }
 
-export default HomeSection;
+export default HomeSection

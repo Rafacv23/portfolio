@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react"
 
 const Text = (props) => {
-    return (
-        <p className={props.className}>
+  return (
+        <p key={props.key} className={props.className}>
             {props.text}
         </p>
-    );
+  )
 }
 
-export default Text;
+export default Text

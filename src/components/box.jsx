@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react"
 import "../styles/box.css"
 
 const Box = (props) => {
-    return (
+  return (
         <div className={props.className}>
             {props.text}{props.children}
         </div>
-    );
+  )
 }
 
-export default Box;
+export default Box

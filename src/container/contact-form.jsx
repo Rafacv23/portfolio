@@ -1,14 +1,13 @@
-import React from 'react';
-import Input from '../components/input';
+import React from "react"
+import Input from "../components/input"
 import Btn from "../components/btn"
-import Title from '../components/title';
-import Box from '../components/box';
+import Title from "../components/title"
 
 const ContactForm = (props) => {
-    return (
+  return (
         <>
             <form id='contact' action='mailto:rafacanosacontacto@gmail.com' method='post' encType='text/plain' onSubmit={props.onSubmit} className='section'>
-            <Title className="title" text="Contact"></Title>    
+            <Title className="title" text="Contact"></Title>
                 <div className='row'>
                     <Input className="input" type="text" placeholder="Name" required></Input>
                     <Input className="input" type="mail" placeholder="Mail" required></Input>
@@ -19,7 +18,7 @@ const ContactForm = (props) => {
                     <Btn className="send-btn hvr-grow-shadow" type="submit" text="Send"></Btn>
                 </div>
             </form>
-    </>);
+    </>)
 }
 
-export default ContactForm;
+export default ContactForm
