@@ -27,7 +27,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ## Live Demo
 
-Check out the live demo of the page [here](https://videogame-library.vercel.app/1).
+Check out the live demo of the page [here](https://rafa-canosa-portfolio.vercel.app/).
 
 ## Installation
 
