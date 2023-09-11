@@ -22,6 +22,30 @@ const projects = [
     languages: ["React", "CSS"],
     live: "https://timer-react-khaki.vercel.app/",
     github: "https://github.com/Rafacv23/Projects/tree/main/10-timer-react"
+  },
+  {
+    id: 4,
+    name: "Currency Converter",
+    type: "currency-converter",
+    languages: ["React", "CSS"],
+    live: "https://currency-converter-nu-eight.vercel.app/",
+    github: "https://github.com/Rafacv23/currency-converter"
+  },
+  {
+    id: 5,
+    name: "Videogame Library",
+    type: "videogame-library",
+    languages: ["React", "CSS"],
+    live: "https://videogame-library.vercel.app/",
+    github: "https://github.com/Rafacv23/videogame-library"
+  },
+  {
+    id: 6,
+    name: "F1 App",
+    type: "f1",
+    languages: ["React", "CSS"],
+    live: "https://f1-app-three.vercel.app/",
+    github: "https://github.com/Rafacv23/f1-app"
   }
 ]
 
