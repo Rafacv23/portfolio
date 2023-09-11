@@ -11,7 +11,7 @@ const PortfolioSection = (props) => {
     <section className="section" id={props.id}>
             <Title className="title" text="My Projects"></Title>
             <Text className="parrafo" text="Some things I've build with love, expertise and a pinch of magical ingredients."></Text>
-            <Box className="row">
+            <Box className="projects">
                 {projects.map((project) => (
                     <Card key={project.id} className={`project-card ${project.type === "idle" ? "project-card-idle" : project.type === "pomodoro" ? "project-card-pomodoro" : project.type === "timer" ? "project-card-timer" : ""}`}>
                         <div className={`${project.type === "idle" ? "project-card-content-idle" : project.type === "pomodoro" ? "project-card-content" : project.type === "timer" ? "project-card-content-timer" : ""}`}>

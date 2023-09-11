@@ -33,6 +33,15 @@
   gap: 1rem; 
 }
 
+.projects{
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
 .section {
   height: 100vh;
   display: flex;
