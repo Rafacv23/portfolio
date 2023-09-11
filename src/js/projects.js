@@ -20,8 +20,8 @@ const projects = [
     name: "Timer",
     type: "timer",
     languages: ["React", "CSS"],
-    live: "https://timer-react-khaki.vercel.app/",
-    github: "https://github.com/Rafacv23/Projects/tree/main/10-timer-react"
+    live: "https://timer-app-taupe.vercel.app/",
+    github: "https://github.com/Rafacv23/timer-app"
   },
   {
     id: 4,
