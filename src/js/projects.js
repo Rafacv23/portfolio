@@ -37,7 +37,7 @@ const projects = [
     type: "videogame-library",
     languages: ["React", "CSS"],
     live: "https://videogame-library.vercel.app/",
-    github: "https://github.com/Rafacv23/videogame-library"
+    github: "https://github.com/Rafacv23/steam-clone"
   },
   {
     id: 6,
@@ -46,6 +46,14 @@ const projects = [
     languages: ["React", "CSS"],
     live: "https://f1-app-three.vercel.app/",
     github: "https://github.com/Rafacv23/f1-app"
+  },
+  {
+    id: 7,
+    name: "Quiz game",
+    type: "quiz-game",
+    languages: ["React", "CSS", "Vite"],
+    live: "https://questions-game-iota.vercel.app/",
+    github: "https://github.com/Rafacv23/questions-game"
   }
 ]
 
