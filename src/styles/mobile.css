@@ -1,5 +1,12 @@
+@media (max-width: 1200px) {
+    .projects{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 @media (max-width: 480px) {
-    .dark-body{
+    body{
         display: flex;
         justify-content: center;
         align-items: center;
