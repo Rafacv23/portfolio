@@ -50,7 +50,7 @@ const projects = [
   {
     id: 7,
     name: "Quiz game",
-    type: "quiz-game",
+    type: "quiz",
     languages: ["React", "CSS", "Vite"],
     live: "https://questions-game-iota.vercel.app/",
     github: "https://github.com/Rafacv23/questions-game"

@@ -16,8 +16,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: auto;
-        width: auto;
         margin-bottom: 1rem;
     }
     .section{

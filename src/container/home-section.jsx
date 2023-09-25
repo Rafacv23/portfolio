@@ -27,7 +27,7 @@ const HomeSection = (props) => {
                                 <Btn className="linkedin-btn"></Btn>
                             </a>
                         </Box>
-                    <Btn className="hire-me-btn hvr-rectangle-out" text="Hire Me" onClick={() => scrollToSection("contact")}></Btn>
+                    <Btn className="hire-me-btn hvr-rectangle-out" text="Hire Me 🤝" onClick={() => scrollToSection("contact")}></Btn>
                 </Box>
                 <Box className="photo-box"></Box>
             </div>

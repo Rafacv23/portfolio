@@ -1,0 +1,165 @@
+.project-card-f1 {
+    display: flex;
+    width: 25rem;
+    height: 30rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .project-card-f1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/f1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0.5rem;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+  
+  .project-card-f1:hover::before {
+    opacity: 0.5;
+  }
+
+  .project-card-content-f1 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    transition: top 0.3s ease;
+    opacity: 0;
+    background-color: transparent;
+  }
+
+  .project-card-content-converter {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    transition: top 0.3s ease;
+    opacity: 0;
+    background-color: transparent;
+  }
+
+  .project-card-content-quiz {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    transition: top 0.3s ease;
+    opacity: 0;
+    background-color: transparent;
+  }
+  
+  .project-card-f1:hover .project-card-content-f1 {
+    top: 0;
+    opacity: 1;
+  }
+  
+  .project-card-converter {
+    display: flex;
+    width: 25rem;
+    height: 30rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .project-card-converter::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/currency-converter.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0.5rem;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+  
+  .project-card-converter:hover::before {
+    opacity: 0.5;
+  }
+  
+  .project-card-converter:hover .project-card-content-converter {
+    top: 0;
+    opacity: 1;
+  }
+  
+  .project-card-quiz {
+    display: flex;
+    width: 25rem;
+    height: 30rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .project-card-quiz::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/quiz.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0.5rem;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+  
+  .project-card-quiz:hover::before {
+    opacity: 0.5;
+  }
+  
+  .project-card-quiz:hover .project-card-content-quiz {
+    top: 0;
+    opacity: 1;
+  }
+  
