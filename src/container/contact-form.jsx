@@ -6,7 +6,7 @@ import Title from "../components/title"
 const ContactForm = (props) => {
   return (
         <>
-            <form id='contact' action='mailto:rafacanosacontacto@gmail.com' method='post' encType='text/plain' onSubmit={props.onSubmit} className='section'>
+            <form id='contact' action='mailto:rafacanosacontacto@gmail.com' method='post' encType='text/plain' onSubmit={props.onSubmit} className='section-home'>
             <Title className="title" text="Contact"></Title>
                 <div className='row'>
                     <Input className="input" type="text" placeholder="Name" required></Input>
