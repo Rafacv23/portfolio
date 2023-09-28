@@ -5,7 +5,7 @@ const projects = [
     type: "idle",
     languages: ["React", "CSS"],
     live: "https://miaudle.vercel.app/",
-    github: "https://github.com/Rafacv23/Projects/tree/main/11-idle-videogame"
+    github: "https://github.com/Rafacv23/idle-game"
   },
   {
     id: 2,

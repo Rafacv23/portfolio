@@ -19,7 +19,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("../img/f1.png");
+    background-image: url("../img/f1-video.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -106,7 +106,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("../img/currency-converter.png");
+    background-image: url("../img/currency-video.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -145,7 +145,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("../img/quiz.png");
+    background-image: url("../img/quiz-video.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
