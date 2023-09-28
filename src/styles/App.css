@@ -17,8 +17,6 @@
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  margin-left: 20%;
-  margin-right: 20%;
   width: auto;
 }
 
@@ -44,11 +42,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
+  align-items: center;
+  text-align: left;
   padding-left: 5rem;
   padding-right: 5rem;
-  margin-right: 10rem;
-  margin-left: 10rem;
 }
 
 .section-projects {
@@ -56,7 +53,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
+  align-items: center;
+  text-align: justify;
   padding-left: 5rem;
   padding-right: 5rem;
   margin-right: auto;

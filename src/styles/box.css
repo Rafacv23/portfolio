@@ -23,6 +23,12 @@
     flex-direction: column;
 }
 
+.column{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .photo-box{
     background-color: #8325FD;
     border-radius: 0.5rem;
@@ -30,7 +36,8 @@
     background-size: 100%;
     background-repeat: no-repeat;
     background-position:bottom;
-    height: 238px;
+    height: 195px;
+    margin-bottom: 1rem;
     width: 200px;
 }
 
@@ -55,10 +62,12 @@
     margin-top: 1rem;
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     flex-direction: column;
-    width: 60%;
-    margin-inline: 20%;
+    text-align: justify;
+    padding: 1rem;
+    width: 35%;
+    height: auto;
 }  
 
 .full{
@@ -71,9 +80,8 @@
     justify-content: center;
     align-items: center;
     color: #D0CCC7;
-    margin-top: 2rem;
+    margin: 0;
     margin-bottom: 2rem;
-    padding: 2rem;
 }
 
 .footer-text{
