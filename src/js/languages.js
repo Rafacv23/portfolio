@@ -48,7 +48,7 @@ const skills = [
     ]
   },
   {
-    id: 1003,
+    id: 103,
     name: "Databases",
     languages: [
       {
@@ -56,11 +56,17 @@ const skills = [
         name: "PostgreSQL",
         alt: "postgresql-logo",
         img: "https://cdn-icons-png.flaticon.com/128/5968/5968342.png"
+      },
+      {
+        id: 3002,
+        name: "Supabase",
+        alt: "supabase-logo",
+        img: "https://imgs.search.brave.com/K1Iu90DQq-vr7VpTD97SRSdlBYTKvo1PWhYIfZWbD0Y/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zZWVr/bG9nby5jb20vaW1h/Z2VzL1Mvc3VwYWJh/c2UtbG9nby1EQ0M2/NzZGRkUyLXNlZWts/b2dvLmNvbS5wbmc"
       }
     ]
   },
   {
-    id: 1004,
+    id: 104,
     name: "Other",
     languages: [
       {
